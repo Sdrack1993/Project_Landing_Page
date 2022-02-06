@@ -1,0 +1,168 @@
+            * {
+                margin: 0;
+            }
+            
+            body {
+                background: #eee;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            
+            ul {
+                list-style-type: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+                gap: 16px;
+            }
+            
+            .right,
+            .left {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+            }
+            
+            .header {
+                background: rgb(10, 7, 1);
+                box-shadow: 0 0 8px blue;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                color: #fff;
+            }
+            
+            .container {
+                background-image: url(/images/dominic-spohr-QJ0Xe2wSgdU-unsplash.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                padding: 20px 0px;
+            }
+            
+            .content {
+                width: 1000px;
+                height: 200px;
+                margin: 0px 50px;
+            }
+            
+            .styled {
+                border: 0;
+                line-height: 2.5;
+                padding: 0 20px;
+                font-size: 1rem;
+                text-align: center;
+                color: #fff;
+                text-shadow: 1px 1px 1px #000;
+                border-radius: 10px;
+                background-color: rgb(0, 22, 220);
+                background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+                box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+            }
+            
+            .styled:hover {
+                background-color: rgb(60, 93, 241);
+            }
+            
+            .styled:active {
+                box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+            }
+            
+            h2 {
+                margin-bottom: 20px;
+            }
+            
+            p {
+                padding-bottom: 20px;
+            }
+            
+            .main-section {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 50px;
+            }
+            
+            h3 {
+                color: black;
+                margin: 50px;
+            }
+            
+            .info {
+                border: 2px solid blue;
+                border-radius: 5px;
+                height: 200px;
+                width: 300px;
+            }
+            
+            .random {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: larger;
+            }
+            
+            .Paragraphs {
+                display: flex;
+                justify-content: space-between;
+                padding: 0px 50px 0px 50px;
+            }
+            
+            .para {
+                height: 200px;
+                width: 300px;
+            }
+            
+            .contain {
+                width: 30%;
+            }
+            
+            .space {
+                height: 200px;
+            }
+            
+            .section1 {
+                background-color: rgb(95, 85, 85);
+            }
+            
+            .mySectionContainer {
+                height: 400px;
+                width: 100%;
+                background-color: rgb(211, 206, 206);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .info2 {
+                width: 40%;
+                font-weight: bold;
+                font-style: italic;
+                font-size: x-large;
+            }
+            
+            .container2 {
+                display: flex;
+                background-color: rgb(55, 121, 219);
+                color: #fff;
+                height: 100px;
+                padding: 20px;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                width: 50%;
+                border-radius: 10px;
+                margin: 50px;
+            }
+            
+            .Section2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            footer {
+                text-align: center;
+                padding: 30px;
+                background-color: rgb(17, 16, 16);
+                color: white;
+            }
